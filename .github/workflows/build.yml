@@ -27,6 +27,6 @@ jobs:
           push: true
           pull: true
           no-cache: true
-          tags: username/code-server:latest
+          tags: kevinisageek/code-server:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
